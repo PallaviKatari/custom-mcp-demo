@@ -2,7 +2,10 @@ import express from "express";
 
 const app = express();
 app.use(express.json());
-
+// Root route for MCP discovery
+app.get("/", (req, res) => {
+  res.send("MCP server is running");
+});
 // Echo Tool
 app.post("/mcp/tool/echo", (req, res) => {
   const { input } = req.body;
