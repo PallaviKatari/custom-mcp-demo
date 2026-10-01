@@ -1,0 +1,19 @@
+{
+  "tools": [
+    {
+      "name": "echoTool",
+      "endpoint": "http://localhost:3000/mcp/tool/echo",
+      "method": "POST"
+    },
+    {
+      "name": "mathAdd",
+      "endpoint": "http://localhost:3000/mcp/tool/add",
+      "method": "POST"
+    },
+    {
+      "name": "weatherTool",
+      "endpoint": "http://localhost:3000/mcp/tool/weather",
+      "method": "POST"
+    }
+  ]
+}
